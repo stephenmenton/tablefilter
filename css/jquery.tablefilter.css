@@ -1,0 +1,26 @@
+tr.tablefilter th {
+  padding: 3px 2px !important;
+  }
+
+tr.tablefilter th input, tr.tablefilter th select {
+  float: left;
+  padding: 1px 0;
+  }
+
+tr.tablefilter th input.invalidFilter {
+  background-color: #800000;
+  color: #fff;
+  }
+
+span.tablefilterEraser {
+  float: left;
+  background-image: url( images/eraser.png );
+  background-position: right center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 20px;
+  cursor: pointer;
+  }
+
