@@ -53,11 +53,11 @@ uses case-senstive regex filter for column 1
 
 `$('table').tablefilter({ headers: { 1: { filter: 'select' }}});`
 
-uses a <select> of all unique values for column 1
+uses a \<select> of all unique values for column 1
 
 `$('table').tablefilter({ headers: { 1: { filter: 'select', options: [ 'Open', 'Closed' ] }}});`
 
-uses a <select> with 'Open' and 'Closed' for column 1
+uses a \<select> with 'Open' and 'Closed' for column 1
   
 `$('table').tablefilter({ widgets: ['zebra'] });`
 
